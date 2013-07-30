@@ -38,10 +38,14 @@
     <None Include="..\etc\appenv">
       <Filter>etc</Filter>
     </None>
+    <None Include="..\Makefile" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\demo\main.cpp">
       <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\log.cpp">
+      <Filter>code</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
