@@ -12,10 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\tcp.h" />
+    <ClInclude Include="..\code\udp.h" />
     <ClInclude Include="..\include\dtp.h" />
     <ClInclude Include="..\include\log.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\build" />
     <None Include="..\config\config.tcp" />
     <None Include="..\etc\appenv" />
     <None Include="..\Makefile" />

@@ -27,6 +27,9 @@
     <ClInclude Include="..\include\log.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\udp.h">
+      <Filter>code</Filter>
+    </ClInclude>
     <ClInclude Include="..\code\tcp.h">
       <Filter>code</Filter>
     </ClInclude>
@@ -39,6 +42,7 @@
       <Filter>etc</Filter>
     </None>
     <None Include="..\Makefile" />
+    <None Include="..\build" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\demo\main.cpp">
