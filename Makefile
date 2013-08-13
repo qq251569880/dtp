@@ -15,7 +15,8 @@ INCLUDE   		= -I$(PWD) -I$(PWD)/include
 CPPFLAGS  		= -Wall $(INCLUDE) -D_LINUX
 LDFLAGS   		= -ldl -lcrypt -lpthread -lrt
 SRCDIRS   		:= 
-PROGRAM 		= bin/main
+EXECUTE 		= main
+PROGRAM 		= bin/$(EXECUTE)
 
 SRCEXTS 		= .cpp
 HDREXTS 		= .h
@@ -100,13 +101,13 @@ strip:
 	strip $(PROGRAM)
 
 install:
-	cp bin/bcfcir $(HOME)/ssd/bin/
+	cp $(PROGRAM) $(HOME)/bin/$(EXECUTE)
 
 uninstall:
-	rm -f $(HOME)/ssd/bin/bcfcir
+	rm -f $(HOME)/bin/$(EXECUTE)
 
 clean:
-	$(RM) $(OBJS) $(PROGRAM) $(PROGRAM)
+	$(RM) $(OBJS) $(PROGRAM)
 	$(RM) `find . -name ".*.d"`
 
 distclean: clean
