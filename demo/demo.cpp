@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "dtp.h"
 
-int main()
+int DInit()
 {
     printf("in dtp demo main...\n");
     getchar();

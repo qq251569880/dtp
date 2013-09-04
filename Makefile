@@ -12,7 +12,7 @@ EXTRA_CFLAGS 	=
 #lib.a
 EXTRA_LDFLAGS   = 
 INCLUDE   		= -I$(PWD) -I$(PWD)/include 
-CPPFLAGS  		= -Wall $(INCLUDE) -D_LINUX
+CPPFLAGS  		= -Wall $(INCLUDE) -D_LINUX -D_DTPDEBUG
 LDFLAGS   		= -ldl -lcrypt -lpthread -lrt
 SRCDIRS   		:= 
 EXECUTE 		= main
