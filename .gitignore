@@ -15,6 +15,9 @@ local.properties
 .classpath
 .settings/
 .loadpath
+dtp.sln
+dtp.vcproj
+.gitignore
 
 # External tool builders
 .externalToolBuilders/
