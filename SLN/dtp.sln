@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dtp", "dtp.vcxproj", "{B3859675-CB67-F7B3-613F-13EE76387A4B}"
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dtp", "dtp.vcproj", "{6046BAAA-2CEC-4296-A3A5-76BCB55059A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3859675-CB67-F7B3-613F-13EE76387A4B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{B3859675-CB67-F7B3-613F-13EE76387A4B}.Debug|Win32.Build.0 = Debug|Win32
-		{B3859675-CB67-F7B3-613F-13EE76387A4B}.Release|Win32.ActiveCfg = Release|Win32
-		{B3859675-CB67-F7B3-613F-13EE76387A4B}.Release|Win32.Build.0 = Release|Win32
+		{6046BAAA-2CEC-4296-A3A5-76BCB55059A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6046BAAA-2CEC-4296-A3A5-76BCB55059A0}.Debug|Win32.Build.0 = Debug|Win32
+		{6046BAAA-2CEC-4296-A3A5-76BCB55059A0}.Release|Win32.ActiveCfg = Release|Win32
+		{6046BAAA-2CEC-4296-A3A5-76BCB55059A0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
